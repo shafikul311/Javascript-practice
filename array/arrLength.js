@@ -9,8 +9,11 @@
 
 let scores = [1, 2, 3, 4, 5];
 
-// const dlScore = scores.splice(0 , 3)
-// console.log(dlScore)
+const dlScore = scores.splice(2 , 4)  //splice(start, deleteCount)
+console.log(dlScore)
 
-const dlS = scores.slice(0 , 3)
+
+
+let sc = [1, 2, 3, 4, 6, 7, 5];
+const dlS = sc.slice(0 , 5)  //slice(start, end)
 console.log(dlS)
