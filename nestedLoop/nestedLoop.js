@@ -17,12 +17,15 @@ let gameB = [
     [23, 4, 34, 35, 3],
 ];
 
-
+// console.log(gameB.length)
 let total = 0;
 for(let i = 0; i < gameB.length; i++) {
     console.log(gameB[i]);
     let row = gameB[i]
+    
     for(let j =0; j< row.length; j++) {
+        // let row2 = row[j]
+        // console.log(row2)
         total += row[j]
         console.log(total)
 
