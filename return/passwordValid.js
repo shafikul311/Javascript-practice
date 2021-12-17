@@ -9,8 +9,6 @@ function passwordValid (password){
         return "indexOf can not contain hull";
     }
 
-   
-
     return 'Pass Ok';
 
 }
