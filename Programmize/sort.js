@@ -18,7 +18,7 @@ const bigSort = number.sort(function (a, b){
 console.log(bigSort)
 
 
-
+// char sort 
 const fruits = ["Banana", "Orange", "Apple", "Mango"]; 
  const charSort = fruits.sort()
 
