@@ -26,6 +26,10 @@ const filterUnder20 = users.filter( user => user.age< 20 );
 
 // over 20 
 const filterOver20 = users.filter( user => user.age> 20 );
-console.log(filterOver20, filterOver20.length)
+// console.log(filterOver20, filterOver20.length)
+
+
+const mapUser = users.map(user => user.name);
+console.log(mapUser, mapUser.length)
 
 
