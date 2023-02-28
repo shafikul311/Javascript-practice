@@ -1,3 +1,5 @@
+// factorial using for loop
+
 function factorial(num) {
     if (num === 0 || num === 1)
       return 1;
@@ -10,4 +12,4 @@ function factorial(num) {
   const fact = factorial(6);
   
 
-  console.log(fact)
+//   console.log(fact)
